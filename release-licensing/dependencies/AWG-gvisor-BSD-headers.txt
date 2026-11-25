@@ -1,0 +1,241 @@
+gVisor v0.0.0-20231202080848-1f7806d17489: original BSD-style file headers
+These are source archive headers, not a claim that every file is shipped.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/hostarch/hostarch.go
+// Copyright 2021 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// Package hostarch contains host arch address operations for user memory.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/hostarch/sizes_util.go
+// Copyright 2022 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/safecopy/atomic_arm64.s
+// Copyright 2014 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/safecopy/memclr_amd64.s
+// Copyright 2014 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/safecopy/memclr_arm64.s
+// Copyright 2014 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/safecopy/memcpy_arm64.s
+// Copyright 2014 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sentry/fsimpl/lock/lock.go
+// Copyright 2018 The gVisor Authors.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+// Package lock is the API for POSIX-style advisory regional file locks and
+// BSD-style full file locks.
+//
+// Callers needing to enforce these types of locks, like sys_fcntl, can call
+// LockRegion and UnlockRegion on a thread-safe set of Locks.  Locks are
+// specific to a unique file (unique device/inode pair) and for this reason
+// should not be shared between files.
+//
+// A Lock has a set of holders identified by UniqueID.  Normally this is the
+// pid of the thread attempting to acquire the lock.
+//
+// Since these are advisory locks, they do not need to be integrated into
+// Reads/Writes and for this reason there is no way to *check* if a lock is
+// held.  One can only attempt to take a lock or unlock an existing lock.
+//
+// A Lock in a set of Locks is typed: it is either a read lock with any number
+// of readers and no writer, or a write lock with no readers.
+//
+// As expected from POSIX, any attempt to acquire a write lock on a file region
+// when there already exits a write lock held by a different uid will fail. Any
+// attempt to acquire a write lock on a file region when there is more than one
+// reader will fail.  Any attempt to acquire a read lock on a file region when
+// there is already a writer will fail.
+//
+// In special cases, a read lock may be upgraded to a write lock and a write lock
+// can be downgraded to a read lock.  This can only happen if:
+//
+//   - read lock upgrade to write lock: There can be only one reader and the reader
+//     must be the same as the requested write lock holder.
+//
+//   - write lock downgrade to read lock: The writer must be the same as the requested
+//     read lock holder.
+//
+// UnlockRegion always succeeds.  If LockRegion fails the caller should normally
+// interpret this as "try again later".
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sentry/time/arith_arm64.go
+// Copyright 2009 The Go Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// This file provides a generic Go implementation of uint128 divided by uint64.
+
+// The code is derived from Go's generic math/big.divWW_g
+// (src/math/big/arith.go), but is only used on ARM64.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/aliases.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/checklocks_off_unsafe.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build !checklocks
+// +build !checklocks
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/checklocks_on_unsafe.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build checklocks
+// +build checklocks
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/goyield_go113_unsafe.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build go1.13 && !go1.14
+// +build go1.13,!go1.14
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/goyield_unsafe.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build go1.14
+// +build go1.14
+
+// //go:linkname directives type-checked by checklinkname. Any other
+// non-linkname assumptions outside the Go 1 compatibility guarantee should
+// have an accompanied vet check or version guard build tag.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/mutex_unsafe.go
+// Copyright 2019 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/norace_unsafe.go
+// Copyright 2019 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build !race
+// +build !race
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/race_unsafe.go
+// Copyright 2019 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build race
+// +build race
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/runtime_amd64.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build amd64
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/runtime_go121_unsafe.go
+// Copyright 2023 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build go1.21
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/runtime_not_go121_unsafe.go
+// Copyright 2023 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// runtime.maptype is moved to internal/abi.MapType in Go 1.21.
+//
+//go:build !go1.21
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/runtime_other.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+//go:build !amd64
+// +build !amd64
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/runtime_unsafe.go
+// Copyright 2020 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// //go:linkname directives type-checked by checklinkname.
+// Runtime type copies checked by checkoffset.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/rwmutex_unsafe.go
+// Copyright 2009 The Go Authors. All rights reserved.
+// Copyright 2019 The gVisor Authors.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// This is mostly copied from the standard library's sync/rwmutex.go.
+//
+// Happens-before relationships indicated to the race detector:
+//	- Unlock -> Lock (via writerSem)
+//	- Unlock -> RLock (via readerSem)
+//	- RUnlock -> Lock (via writerSem)
+//	- DowngradeLock -> RLock (via readerSem)
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/seqcount.go
+// Copyright 2019 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+gvisor.dev/gvisor@v0.0.0-20231202080848-1f7806d17489/pkg/sync/sync.go
+// Copyright 2019 The gVisor Authors.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// Package sync provides synchronization primitives.
+//
+// +checkalignedignore

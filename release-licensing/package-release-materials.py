@@ -45,7 +45,9 @@ def release_material_entries():
         (dependencies / 'desugar-candidate-73170c3.zip', 'sources/desugar/desugar-73170c3.zip'),
     ])
     for name in ('README.md', 'AWG-REBUILD.md', 'DESUGAR-REBUILD.md', 'CheckDesugar.java',
-                 'AWG-arm64-go-build-info.txt',
+                 'AWG-arm64-go-build-info.txt', 'AWG-notice-audit.md',
+                 'AWG-dns-COPYRIGHT.txt', 'AWG-gvisor-BSD-headers.txt',
+                 'AWG-gvisor-2025-LICENSE.txt',
                  'go-modules-manifest.txt', 'desugar-release-l8-classes.txt',
                  'Desugar-2.1.5-candidate-ADDITIONAL-LICENSE-INFO.txt'):
         entries.append((dependencies / name, f'release-licensing/dependencies/{name}'))

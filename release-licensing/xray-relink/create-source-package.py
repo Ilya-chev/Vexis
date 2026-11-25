@@ -12,23 +12,27 @@ output = Path(sys.argv[1]).resolve()
 if output.exists():
     raise SystemExit('Output already exists')
 wrapper = 'AndroidLibXrayLite-b5a377087e74eaa34e86718710b04c50f4b767f5.zip'
-files = [base / name for name in (wrapper, 'go1.27.3.src.tar.gz', 'GPL-3.0.txt', 'LGPL-3.0.txt',
-         'SOURCES.md', 'README.md', 'rebuild-xray.sh', 'extract-build-info.py', 'fetch-module-sources.py', 'export-notices.py')]
+bindings = 'libv2ray-v26.11.9-sources.jar'
+files = [base / name for name in (wrapper, bindings, 'go1.27.3.src.tar.gz', 'GPL-3.0.txt', 'LGPL-3.0.txt',
+         'SOURCES.md', 'README.md', 'rebuild-xray.sh', 'extract-build-info.py', 'fetch-module-sources.py',
+         'fetch-build-module-sources.py', 'export-notices.py')]
 files += sorted((base / 'build-info').glob('*-go-modules.txt'))
-inventory_file = base / 'module-sources/inventory.json'
-inventory = json.loads(inventory_file.read_text(encoding='utf-8'))
-if len(inventory) != 46:
-    raise SystemExit('Expected 46 verified module records')
-files.append(inventory_file)
-for item in inventory:
-    path = base / 'module-sources' / item['archive']
-    if hashlib.sha256(path.read_bytes()).hexdigest() != item['sha256_zip']:
-        raise SystemExit('Archive SHA-256 mismatch: ' + str(path))
-    files.append(path)
+for directory, module_count in (('module-sources', 46), ('build-module-sources', 6)):
+    inventory_file = base / directory / 'inventory.json'
+    inventory = json.loads(inventory_file.read_text(encoding='utf-8'))
+    if len(inventory) != module_count:
+        raise SystemExit(f'Expected {module_count} verified module records in {directory}')
+    files.append(inventory_file)
+    for item in inventory:
+        path = inventory_file.parent / item['archive']
+        if hashlib.sha256(path.read_bytes()).hexdigest() != item['sha256_zip']:
+            raise SystemExit('Archive SHA-256 mismatch: ' + str(path))
+        files.append(path)
 with zipfile.ZipFile(base / wrapper) as z:
     if any(n.lower().endswith('.dat') for n in z.namelist()):
         raise SystemExit('Unexpected .dat file in wrapper source archive')
 expected = {wrapper: '003f947ed157e8b6972bc160ac7771035fa88b9c129a55a3fbe3991fe6810918',
+            bindings: 'c6d5eda3d69739c7cdfa177f607b5549b6764062ed2ee9a65c600c2fc26e8ccf',
             'go1.27.3.src.tar.gz': '6e7749035cf360f06b2575d162ea79df9fda8ef671889e5c375f8e50777f26bb'}
 for name, digest in expected.items():
     if hashlib.sha256((base / name).read_bytes()).hexdigest() != digest:

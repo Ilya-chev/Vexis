@@ -12,6 +12,7 @@
 /release-licensing/**/*.zip
 /release-licensing/**/*.tar.gz
 /release-licensing/**/*.jar
+/release-licensing/**/__pycache__/
 !/ENGINE-UPDATES.md
 !/build.gradle
 !/settings.gradle

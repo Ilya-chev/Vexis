@@ -1,0 +1,44 @@
+[
+  {
+    "module": "github.com/google/btree",
+    "version": "v1.1.3",
+    "h1": "h1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=",
+    "archive": "e4abff79393a81b9248d855a69d00fa4c7c9c2bc8dee57d8fb6dd450156c96f6.zip",
+    "sha256_zip": "11b736bc8252b52fecdf346d3707ccf3a2b6d458ba21b4f843616fc12eeb30b2"
+  },
+  {
+    "module": "github.com/kr/text",
+    "version": "v0.2.0",
+    "h1": "h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=",
+    "archive": "a2939ef098e24c1666cfa50fc9c7bcb2d65cd88d66e7611ce108e8f21decf846.zip",
+    "sha256_zip": "368eb318f91a5b67be905c47032ab5c31a1d49a97848b1011a0d0a2122b30ba4"
+  },
+  {
+    "module": "github.com/rogpeppe/go-internal",
+    "version": "v1.14.1",
+    "h1": "h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0tI/otEQ=",
+    "archive": "8d36bab0ca914bcfb3dd6fcf1c1e64701b62a87a124134f70321b903fe186c3e.zip",
+    "sha256_zip": "ab3d18283cef2f46ddfd489b6b14b970eb7dbbb642786f025ee1ac5291dc4e70"
+  },
+  {
+    "module": "go.uber.org/mock",
+    "version": "v0.6.0",
+    "h1": "h1:hyF9dfmbgIX5EfOdasqLsWD6xqpNZlXblLB/Dbnwv3Y=",
+    "archive": "4ebd6432e1c1e161e6b2ee507be564f0604dea9768eafbe1c54404ae2b8b7a54.zip",
+    "sha256_zip": "64e9c159c974cd05c09eae2e0fa1558e7f5eef0c85434208526b052785e1b90f"
+  },
+  {
+    "module": "golang.zx2c4.com/wintun",
+    "version": "v0.0.0-20230126152724-0fa3db229ce2",
+    "h1": "h1:B82qJJgjvYKsXS9jeunTOisW56dUokqW/FOteYJJ/yg=",
+    "archive": "064e3bbb0855073032b5641639894790749d4ae1541f9d8016a015c983735d48.zip",
+    "sha256_zip": "06599222daa6af8547045c446cefa9a2bab19d57bde1fc6436114308d79a2b4b"
+  },
+  {
+    "module": "golang.zx2c4.com/wireguard/windows",
+    "version": "v1.1.1",
+    "h1": "h1:8/H97U1v1PNDNcBsMZgU3KFuND9MQdTsU2NOwmCXArE=",
+    "archive": "db849f7ec5132e5a729e2678aecc259a7e7c5b9bd93a6c217da332f6f072d254.zip",
+    "sha256_zip": "b4c3807f39a6c063bb8d07e12ee8e863a5da5b4de72cda6614f579d41fea0f0b"
+  }
+]

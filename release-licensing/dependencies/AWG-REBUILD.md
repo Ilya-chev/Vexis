@@ -37,3 +37,38 @@ The resulting AAR should be checked with Vexis before substituting it.
 The upstream build recipe, embedded dependency hashes and source revisions
 are recorded here. An independent rebuild of the upstream AAR has not been
 compared byte for byte to the Maven artifact.
+
+## Signed Vexis 1.0 APK check (2026-11-25)
+
+The inspected `app/release/Vexis-1.0.apk` has SHA-256
+`48b1a16928a75c39e76b3b74f5e6d4c6b48e4854cf0f580fd2563c112fe2c0d7`.
+Its four `libam-go.so` entry contents are byte-identical to the corresponding
+entries of the cached Maven AAR (whose SHA-256 is documented in README.md):
+
+| ABI | libam-go.so SHA-256 |
+| --- | --- |
+| arm64-v8a | `cc119dbc6140f65d225d597852eb16848d011f09582392f1de422242ac348aa7` |
+| armeabi-v7a | `1cba1ca8eb1eb4ed47e25b86c59cfae84b609f9de8e600082d609ada92ead21f` |
+| x86 | `64907812fd058fbc842b47966aa1f013d22b35f78626771013ceaf07113ed2ca` |
+| x86_64 | `5625357f01cb2b82ada60ab52de164b246d6a436c115a6f087bf585b2a859343` |
+
+Neither `libam.so` nor `libam-quick.so` occurs in that APK. This comparison
+links the shipped binaries to the AAR, not independently to its source.
+A byte-identical rebuilt `.so` would be strong evidence of correspondence;
+a mismatch alone would not establish different source because build paths,
+compiler, linker, build IDs, stripping and archive metadata can differ.
+A meaningful independent comparison must preserve its build environment,
+commands and logs, compare each uncompressed ABI entry, and investigate any
+semantic differences, not merely compare whole AAR ZIP hashes.
+
+A preliminary scan of the retained module archives found additional
+file-level issues requiring review before claiming a complete notice audit:
+`dns.zip` includes a separate `COPYRIGHT` naming Cloudflare in addition to
+its root LICENSE (the latter is included in the APK); the gVisor archive
+contains files such as `pkg/hostarch/hostarch.go` and `pkg/sync/sync.go`
+with gVisor Authors copyright and BSD-style license references while the
+archive's root LICENSE is Apache-2.0. A later upstream clarification and the original headers are provided with
+the companion materials, as explained in `AWG-notice-audit.md`. The exact
+set of compiled files has not been established. A source scan
+is not proof that every scanned file is included in the native binary.
+The signed APK was not changed by this audit.

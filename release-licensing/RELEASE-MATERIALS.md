@@ -4,10 +4,13 @@
 - `licenses/` contains the notices that accompany the APK.
 - `THIRD-PARTY.md` is the component index and links to the provenance records.
 - `sources/Vexis-Xray-sources.zip` contains the AndroidLibXrayLite source,
-  instructions, Go 1.27.3 and 46 verified Go dependency archives.
+  the upstream Java bindings source JAR, build instructions, Go 1.27.3,
+  46 verified dependencies identified in the binary and six more Go modules
+  declared by the wrapper.
 - `sources/awg/` contains the pinned AmneziaWG Android source, native build
   helpers, the 12 verified Go dependency archives and Go 1.24.4. See
-  [AWG build instructions](release-licensing/dependencies/AWG-REBUILD.md).
+  [AWG build instructions](release-licensing/dependencies/AWG-REBUILD.md)
+  and the [supplemental DNS and gVisor notices](release-licensing/dependencies/AWG-notice-audit.md).
 - `sources/desugar/` contains the source snapshot for 2.1.5. The rebuild and
   comparison verify all 1,459 classes in the Google Maven artifact.
   See [desugar source verification](release-licensing/dependencies/DESUGAR-REBUILD.md).
