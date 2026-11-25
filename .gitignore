@@ -1,0 +1,64 @@
+# Ignore everything unless it is part of the project or its build.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/LICENSE
+!/NOTICE
+!/THIRD-PARTY.md
+!/release-licensing/
+# License audit records and scripts stay in Git; downloaded and generated
+# release materials are distributed separately.
+/release-licensing/**/*.zip
+/release-licensing/**/*.tar.gz
+/release-licensing/**/*.jar
+!/ENGINE-UPDATES.md
+!/build.gradle
+!/settings.gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/install-debug.ps1
+!/gradle/
+!/app/
+
+# Gradle wrapper required to build the project.
+/gradle/*
+!/gradle/wrapper/
+/gradle/wrapper/*
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# App source, resources and the libraries referenced by app/build.gradle.
+/app/*
+!/app/build.gradle
+!/app/engine-rules.pro
+!/app/src/
+!/app/libs/
+/app/libs/*
+# The original Xray AAR contains third-party geo data. The compiled APK and
+# relink materials use the filtered AAR built by Gradle.
+!/app/libs/androidsvg-1.4.aar
+!/app/libs/zxing-core-3.5.3.jar
+
+# Never commit packages, generated files, local data or signing material.
+*.apk
+*.aab
+*.apks
+*.idsig
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+.env*
+local.properties
+**/build/
+**/.gradle/
+**/.idea/
+*.log
+*.db
+*.db-shm
+*.db-wal

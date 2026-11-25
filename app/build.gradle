@@ -1,0 +1,49 @@
+plugins { id 'com.android.application' }
+def engineUpdateFeed = providers.gradleProperty('engineUpdateFeed').getOrElse('').trim()
+def xrayArchive = layout.projectDirectory.file('libs/libv2ray.aar')
+def xrayWithoutBundledGeoData = tasks.register('xrayWithoutBundledGeoData', Zip) {
+    archiveFileName = 'libv2ray.aar'
+    destinationDirectory = layout.buildDirectory.dir('generated/xray')
+    inputs.file(xrayArchive)
+    from({ zipTree(xrayArchive.asFile) }) {
+        exclude 'assets/geoip.dat', 'assets/geosite.dat', 'assets/geoip-only-cn-private.dat'
+    }
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+android { namespace 'com.example.tunnel'; compileSdk 34
+ if (!engineUpdateFeed.isEmpty()) {
+  sourceSets {
+   debug.manifest.srcFile 'src/engineUpdates/AndroidManifest.xml'
+   release.manifest.srcFile 'src/engineUpdates/AndroidManifest.xml'
+  }
+ }
+ buildFeatures { buildConfig true }
+ packaging {
+  jniLibs {
+   // Vexis uses the userspace AWG backend; the AAR also ships root-only tools.
+   excludes += ['**/libam.so', '**/libam-quick.so']
+  }
+ }
+ compileOptions {
+  coreLibraryDesugaringEnabled true
+  sourceCompatibility JavaVersion.VERSION_11
+  targetCompatibility JavaVersion.VERSION_11
+ }
+ buildTypes.configureEach {
+  // Compile the complete program so R8 can share record desugaring classes.
+  minifyEnabled true
+  proguardFiles 'engine-rules.pro'
+ }
+ defaultConfig {
+  applicationId 'com.example.tunnel'; minSdk 24; targetSdk 34; versionCode 1; versionName '1.0'
+  buildConfigField 'String', 'ENGINE_UPDATE_FEED', groovy.json.JsonOutput.toJson(engineUpdateFeed)
+ } }
+
+dependencies { implementation files('libs/zxing-core-3.5.3.jar') }
+
+dependencies { implementation files(xrayWithoutBundledGeoData.flatMap { it.archiveFile }) }
+
+dependencies { implementation files('libs/androidsvg-1.4.aar') }
+dependencies { implementation 'com.zaneschepke:amneziawg-android:2.3.7@aar' }
+dependencies { coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5' }

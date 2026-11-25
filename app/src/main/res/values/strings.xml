@@ -1,0 +1,24 @@
+<resources>
+    <string name="journal_connected_prefix">"VPN подключён: "</string>
+    <string name="journal_lost_reconnect">VPN-сервер недоступен; запущено переподключение</string>
+    <string name="journal_lost_disconnect">VPN-сервер недоступен; отключение</string>
+    <string name="journal_updated_prefix">"Подписка обновлена: "</string>
+    <string name="journal_servers_count">" · серверов: "</string>
+    <string name="service_waiting_internet">Ожидание интернета</string>
+    <string name="service_vpn_busy">VPN занят</string>
+    <string name="service_check_server">"Проверка · "</string>
+    <string name="service_milliseconds">" мс"</string>
+    <string name="country_unknown">Неизвестная страна</string>
+    <string name="tab_servers">Серверы</string>
+    <string name="tab_selected">Выбранные</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="connected">Подключено</string>
+    <string name="manual">Вручную</string>
+    <string name="automatic">Авто</string>
+    <string name="group_countries">По странам</string>
+    <string name="group_subscriptions">По подпискам</string>
+    <string name="manual_reconnect">Автопереподключение в ручном режиме</string>
+    <string name="manual_reconnect_help">При потере соединения повторно проверяет и подключает выбранный вручную сервер. Со второго круга проверяет обновления движков и подписки.</string>
+</resources>

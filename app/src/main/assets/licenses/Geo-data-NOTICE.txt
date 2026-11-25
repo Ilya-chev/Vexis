@@ -1,0 +1,20 @@
+V2Fly domain-list-community
+The bundled v2ray-geosite.dat is dlc.dat from release 20261115151618.
+Copyright (c) 2018-2019 V2Ray. Distributed under the MIT License; see
+V2Fly-Domain-List-MIT.txt.
+Source: https://github.com/v2fly/domain-list-community/tree/20261115151618
+Release: https://github.com/v2fly/domain-list-community/releases/tag/20261115151618
+SHA-256: 94ad31b62a6e977599a5ac7489e94f8e1fe2c4a2b679336ca954b33bdf6aadf4
+
+V2Fly GeoIP
+The bundled v2ray-geoip.dat matches geoip.dat from release 202611080027.
+V2Fly GeoIP is licensed under CC BY-SA 4.0; see
+V2Fly-GeoIP-CC-BY-SA-4.0.txt. The release configuration uses DB-IP Country
+Lite data, private addresses and test addresses. IP Geolocation by DB-IP:
+https://db-ip.com/ . DB-IP Lite data is licensed under CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/ . V2Fly converts the data into
+the GeoIP protobuf format and adds private and test ranges. No changes were
+made to the downloaded GeoIP file for this distribution.
+Source: https://github.com/v2fly/geoip/tree/202611080027
+Release: https://github.com/v2fly/geoip/releases/tag/202611080027
+SHA-256: eedb24b3b9fcba27e06b92c0428dab90d9496083091ae4cf39e11387fd99d0e2

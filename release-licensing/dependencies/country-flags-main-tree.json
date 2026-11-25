@@ -1,0 +1,2109 @@
+{
+  "sha": "c09927e63705529bbf59ca6684cd9b23225dddad",
+  "url": "https://api.github.com/repos/hampusborgos/country-flags/git/trees/c09927e63705529bbf59ca6684cd9b23225dddad",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4445c23f86c9629da628aa92d4366bb50875485e",
+      "size": 32,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4445c23f86c9629da628aa92d4366bb50875485e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "024c62ffed0dfbe86c2350f3f587d0310475fed8",
+      "size": 2737,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/024c62ffed0dfbe86c2350f3f587d0310475fed8"
+    },
+    {
+      "path": "countries.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa1665e54906ac065f6ba18e1adf4015b54fcf21",
+      "size": 6500,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/aa1665e54906ac065f6ba18e1adf4015b54fcf21"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3750994952ad14f8a3654dc8c88eeb95bfeea9",
+      "size": 706,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/0f3750994952ad14f8a3654dc8c88eeb95bfeea9"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1953eea9a6f6eee13b81f84d3f17f17d3ba1bd77",
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/trees/1953eea9a6f6eee13b81f84d3f17f17d3ba1bd77"
+    },
+    {
+      "path": "scripts/build-pngs.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7284d4a1c6123d3fffd53ad0c77ec5b782954fcc",
+      "size": 3994,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7284d4a1c6123d3fffd53ad0c77ec5b782954fcc"
+    },
+    {
+      "path": "scripts/flags.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe542bf0ba655cc6243578b81cdfa37f6b804b29",
+      "size": 40604,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/fe542bf0ba655cc6243578b81cdfa37f6b804b29"
+    },
+    {
+      "path": "svg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64347a1142b18969b517eccff6e4464a03b1a1f8",
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/trees/64347a1142b18969b517eccff6e4464a03b1a1f8"
+    },
+    {
+      "path": "svg/ad.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d3096dc94bf48b278648cbf7f0cce9260bc3961",
+      "size": 48080,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8d3096dc94bf48b278648cbf7f0cce9260bc3961"
+    },
+    {
+      "path": "svg/ae.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64bc2bd6d9ae788352e32c97a3c7877bc03531c6",
+      "size": 200,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/64bc2bd6d9ae788352e32c97a3c7877bc03531c6"
+    },
+    {
+      "path": "svg/af.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c919e0a423a03294db09f90e28bc4318e44879df",
+      "size": 190225,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c919e0a423a03294db09f90e28bc4318e44879df"
+    },
+    {
+      "path": "svg/ag.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d96e0554ebb35ccf74799a7a84a1f5b7cdf577",
+      "size": 553,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/54d96e0554ebb35ccf74799a7a84a1f5b7cdf577"
+    },
+    {
+      "path": "svg/ai.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa436d837b0f8c9f17e98aecd78169a87e3ed9b3",
+      "size": 3544,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/fa436d837b0f8c9f17e98aecd78169a87e3ed9b3"
+    },
+    {
+      "path": "svg/al.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393d18e752ef059ade5cf5c595f9b640d336f07a",
+      "size": 8625,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/393d18e752ef059ade5cf5c595f9b640d336f07a"
+    },
+    {
+      "path": "svg/am.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "533bcd83cf62e52772e36623f85d8ab126200b04",
+      "size": 178,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/533bcd83cf62e52772e36623f85d8ab126200b04"
+    },
+    {
+      "path": "svg/ao.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8b0ed43cc7b861ac1b92cbee75b9af456c5b2ea",
+      "size": 2215,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d8b0ed43cc7b861ac1b92cbee75b9af456c5b2ea"
+    },
+    {
+      "path": "svg/aq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58898daf2d8646ab984d5f591742df7d81f1aa71",
+      "size": 4878,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/58898daf2d8646ab984d5f591742df7d81f1aa71"
+    },
+    {
+      "path": "svg/ar.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71880e6d7d18e6391d1f6885eacd1c1f2885cf5",
+      "size": 3966,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e71880e6d7d18e6391d1f6885eacd1c1f2885cf5"
+    },
+    {
+      "path": "svg/as.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7398660987bb4f8317c9cb699ed752861deb9857",
+      "size": 47863,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7398660987bb4f8317c9cb699ed752861deb9857"
+    },
+    {
+      "path": "svg/at.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "295e2ad14f745a25f4f66b3e0b0648abb286a47d",
+      "size": 137,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/295e2ad14f745a25f4f66b3e0b0648abb286a47d"
+    },
+    {
+      "path": "svg/au.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab7eb4d0b640c8e003d86fd6e121af76bf59414",
+      "size": 1309,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/bab7eb4d0b640c8e003d86fd6e121af76bf59414"
+    },
+    {
+      "path": "svg/aw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6cb10f29625cbb19d00b40023f82d6aff5604b3",
+      "size": 316,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d6cb10f29625cbb19d00b40023f82d6aff5604b3"
+    },
+    {
+      "path": "svg/ax.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d71f588eafb43f441be819de1961dfe3a3bdca",
+      "size": 252,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f5d71f588eafb43f441be819de1961dfe3a3bdca"
+    },
+    {
+      "path": "svg/az.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "013aa6cda4a2dc49f8be253c325d6ffbeb49d8f2",
+      "size": 524,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/013aa6cda4a2dc49f8be253c325d6ffbeb49d8f2"
+    },
+    {
+      "path": "svg/ba.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45845f0dffab303b860763a1c2f1368a9b1598f3",
+      "size": 504,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/45845f0dffab303b860763a1c2f1368a9b1598f3"
+    },
+    {
+      "path": "svg/bb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07f5205a5c20c4a8111bc1ecb40ee6fb6d980ca",
+      "size": 804,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e07f5205a5c20c4a8111bc1ecb40ee6fb6d980ca"
+    },
+    {
+      "path": "svg/bd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8169149028ef5a2b3e46b9dfaf31dd9adbd50ce1",
+      "size": 150,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8169149028ef5a2b3e46b9dfaf31dd9adbd50ce1"
+    },
+    {
+      "path": "svg/be.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3cd3e4502e3524cb6262465eda445a6906105f",
+      "size": 171,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ce3cd3e4502e3524cb6262465eda445a6906105f"
+    },
+    {
+      "path": "svg/bf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38e9546912e637aff8f5a84dfaa0a51c6dce529",
+      "size": 551,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c38e9546912e637aff8f5a84dfaa0a51c6dce529"
+    },
+    {
+      "path": "svg/bg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1e0626fdee11ccb0926851223e41bacc45b10b",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4b1e0626fdee11ccb0926851223e41bacc45b10b"
+    },
+    {
+      "path": "svg/bh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c539a5528d9a67c11f6e5d1f757834edbd3a93a7",
+      "size": 221,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c539a5528d9a67c11f6e5d1f757834edbd3a93a7"
+    },
+    {
+      "path": "svg/bi.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134f489671a5378fb9f1931dde316f226b08b499",
+      "size": 1003,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/134f489671a5378fb9f1931dde316f226b08b499"
+    },
+    {
+      "path": "svg/bj.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e3d879843f32b01544626d7f34e03d5d64ab18",
+      "size": 180,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a4e3d879843f32b01544626d7f34e03d5d64ab18"
+    },
+    {
+      "path": "svg/bl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/bm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31a298aee267b3b3a4c279c56fdc94de0c34af1f",
+      "size": 31815,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/31a298aee267b3b3a4c279c56fdc94de0c34af1f"
+    },
+    {
+      "path": "svg/bn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "276ff9e7867e4946b4cb245752c34712a12ff9bc",
+      "size": 24205,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/276ff9e7867e4946b4cb245752c34712a12ff9bc"
+    },
+    {
+      "path": "svg/bo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5727940374662b3c914db1761d0265282e5f0f",
+      "size": 234767,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/bb5727940374662b3c914db1761d0265282e5f0f"
+    },
+    {
+      "path": "svg/bq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86c0c376a22ff4c5c404a8b5ca8998d7f2870b3e",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/86c0c376a22ff4c5c404a8b5ca8998d7f2870b3e"
+    },
+    {
+      "path": "svg/br.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07bcf7eb381de5174dc1f93251c50057083791d",
+      "size": 4125,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a07bcf7eb381de5174dc1f93251c50057083791d"
+    },
+    {
+      "path": "svg/bs.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f98ff84e47a761e6a09d549d62fd926ae819885",
+      "size": 171,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7f98ff84e47a761e6a09d549d62fd926ae819885"
+    },
+    {
+      "path": "svg/bt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a23e11669e24b6b31cfa3a973b1fe53419aef5a",
+      "size": 48226,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7a23e11669e24b6b31cfa3a973b1fe53419aef5a"
+    },
+    {
+      "path": "svg/bv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69120a68be041641eb37d7cf5bc4d88f5eb86bd3",
+      "size": 243,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/69120a68be041641eb37d7cf5bc4d88f5eb86bd3"
+    },
+    {
+      "path": "svg/bw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe792ea8ab09f2fb9f1e86701fbceed5d09d89d",
+      "size": 167,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/2fe792ea8ab09f2fb9f1e86701fbceed5d09d89d"
+    },
+    {
+      "path": "svg/by.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "574980fabafb89b40ee371cc67f6877d4a07e907",
+      "size": 1374,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/574980fabafb89b40ee371cc67f6877d4a07e907"
+    },
+    {
+      "path": "svg/bz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbb466a7d5780b2b13d4d062ef18a7d07a3074b",
+      "size": 86140,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3cbb466a7d5780b2b13d4d062ef18a7d07a3074b"
+    },
+    {
+      "path": "svg/ca.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03177dd99642dfcb65d378fa8f7dc6107ef7fef",
+      "size": 621,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f03177dd99642dfcb65d378fa8f7dc6107ef7fef"
+    },
+    {
+      "path": "svg/cc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e3f565a0cdc2c8b5326ce72dc5b0abe788fbc6",
+      "size": 4996,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b7e3f565a0cdc2c8b5326ce72dc5b0abe788fbc6"
+    },
+    {
+      "path": "svg/cd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "862681eec6c764f835d7a0127b9d912cfc3f0bfe",
+      "size": 286,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/862681eec6c764f835d7a0127b9d912cfc3f0bfe"
+    },
+    {
+      "path": "svg/cf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24e8e579944bee16e0260308e596d5cba3963fbf",
+      "size": 302,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/24e8e579944bee16e0260308e596d5cba3963fbf"
+    },
+    {
+      "path": "svg/cg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfd12ecc0c4deb4a47e35f1cb49c4caa4014c6e",
+      "size": 250,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/cbfd12ecc0c4deb4a47e35f1cb49c4caa4014c6e"
+    },
+    {
+      "path": "svg/ch.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0ff636a36f01a213a7744ff1dcb4ad8930f543",
+      "size": 162,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/dd0ff636a36f01a213a7744ff1dcb4ad8930f543"
+    },
+    {
+      "path": "svg/ci.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7563a18b3128920cca58fc004be9e876fc17fa6b",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7563a18b3128920cca58fc004be9e876fc17fa6b"
+    },
+    {
+      "path": "svg/ck.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c08f95d06784be4da13a08297f38b0ffbdb321e4",
+      "size": 1030,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c08f95d06784be4da13a08297f38b0ffbdb321e4"
+    },
+    {
+      "path": "svg/cl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b338656552bebabe622c1226cffd6eb8b31f8d7a",
+      "size": 526,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b338656552bebabe622c1226cffd6eb8b31f8d7a"
+    },
+    {
+      "path": "svg/cm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901fecf36cc482fb24a59344381d75597e322828",
+      "size": 630,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/901fecf36cc482fb24a59344381d75597e322828"
+    },
+    {
+      "path": "svg/cn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a70817347c65cd5f12f9b3154f38b56e9f13a9",
+      "size": 531,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/69a70817347c65cd5f12f9b3154f38b56e9f13a9"
+    },
+    {
+      "path": "svg/co.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb2061f43d4e66654e98615bfadc1aa705b6833",
+      "size": 198,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/6cb2061f43d4e66654e98615bfadc1aa705b6833"
+    },
+    {
+      "path": "svg/cr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f292b28fc22ae007a31aeee9d1709e58be7748",
+      "size": 70389,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a5f292b28fc22ae007a31aeee9d1709e58be7748"
+    },
+    {
+      "path": "svg/cu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09558fa36e625dd23b3bd2dabbf5189fbecb6c1a",
+      "size": 324,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/09558fa36e625dd23b3bd2dabbf5189fbecb6c1a"
+    },
+    {
+      "path": "svg/cv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f61248dc6fa8288fa48bb5ea061c16bdc0a8d40",
+      "size": 923,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1f61248dc6fa8288fa48bb5ea061c16bdc0a8d40"
+    },
+    {
+      "path": "svg/cw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c98533657da04124bbfdd75193f6d4b79574f6",
+      "size": 593,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f2c98533657da04124bbfdd75193f6d4b79574f6"
+    },
+    {
+      "path": "svg/cx.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3ec560213f7c63e98d24b26c4717b51ea8394f1",
+      "size": 3966,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e3ec560213f7c63e98d24b26c4717b51ea8394f1"
+    },
+    {
+      "path": "svg/cy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54489e74cf1774fcf87c423e166afbfac1eefed9",
+      "size": 10058,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/54489e74cf1774fcf87c423e166afbfac1eefed9"
+    },
+    {
+      "path": "svg/cz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db03aba30d183dad5e481a9c22634ab8c5ae6ece",
+      "size": 212,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/db03aba30d183dad5e481a9c22634ab8c5ae6ece"
+    },
+    {
+      "path": "svg/de.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9fbd31b5c35ebde559f89115cc3501e740157f",
+      "size": 160,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/aa9fbd31b5c35ebde559f89115cc3501e740157f"
+    },
+    {
+      "path": "svg/dj.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d49f340043af36d70b1908ac74d814b79891c88",
+      "size": 322,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1d49f340043af36d70b1908ac74d814b79891c88"
+    },
+    {
+      "path": "svg/dk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae58c504d0f85991816d12ad603d36aa01a16323",
+      "size": 222,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ae58c504d0f85991816d12ad603d36aa01a16323"
+    },
+    {
+      "path": "svg/dm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028b33bfa058fb542733ede045ba6f762e45c1f6",
+      "size": 10550,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/028b33bfa058fb542733ede045ba6f762e45c1f6"
+    },
+    {
+      "path": "svg/do.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa272ed58f9a03ea953ee7708ae7980a6e2e0eba",
+      "size": 147435,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/fa272ed58f9a03ea953ee7708ae7980a6e2e0eba"
+    },
+    {
+      "path": "svg/dz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1165a7e9bd978741836e99c2faf07d7fb90d521",
+      "size": 272,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e1165a7e9bd978741836e99c2faf07d7fb90d521"
+    },
+    {
+      "path": "svg/ec.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b673e6e1ec6892949fc1210ba76de6644db65845",
+      "size": 176992,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b673e6e1ec6892949fc1210ba76de6644db65845"
+    },
+    {
+      "path": "svg/ee.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bddd1ad43c22ba1b5a1b07a3bc7e3c81176dd07",
+      "size": 167,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1bddd1ad43c22ba1b5a1b07a3bc7e3c81176dd07"
+    },
+    {
+      "path": "svg/eg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53e54a2c6bce6a9a64e7395c72f878d2e444ae4",
+      "size": 23406,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e53e54a2c6bce6a9a64e7395c72f878d2e444ae4"
+    },
+    {
+      "path": "svg/eh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b077200acba806ff6e146e23d691b323a2f009",
+      "size": 605,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a5b077200acba806ff6e146e23d691b323a2f009"
+    },
+    {
+      "path": "svg/er.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551f72c073e0b8a75fed06128d20a68158988651",
+      "size": 3223,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/551f72c073e0b8a75fed06128d20a68158988651"
+    },
+    {
+      "path": "svg/es.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f0d2f46bdb49dc2608bb22ee9bb8464988861f",
+      "size": 50149,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/23f0d2f46bdb49dc2608bb22ee9bb8464988861f"
+    },
+    {
+      "path": "svg/et.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c9781b3d90510a63bcab1c617eeb3d02577fff",
+      "size": 677,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a9c9781b3d90510a63bcab1c617eeb3d02577fff"
+    },
+    {
+      "path": "svg/eu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f04d8a07cce8c88276747060d2765e733daf273",
+      "size": 888,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7f04d8a07cce8c88276747060d2765e733daf273"
+    },
+    {
+      "path": "svg/fi.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01d061d7a22012172cccfbacf545ed0747713947",
+      "size": 233,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/01d061d7a22012172cccfbacf545ed0747713947"
+    },
+    {
+      "path": "svg/fj.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b765b7b5a6ca2bb95d7fad2f2c1eb3b7ede751",
+      "size": 41772,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/81b765b7b5a6ca2bb95d7fad2f2c1eb3b7ede751"
+    },
+    {
+      "path": "svg/fk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876af98a8888b00a95084880e76658d4ecbd3b77",
+      "size": 103295,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/876af98a8888b00a95084880e76658d4ecbd3b77"
+    },
+    {
+      "path": "svg/fm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98009e8c03915bac545dd205da5169ba4e6e900d",
+      "size": 697,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/98009e8c03915bac545dd205da5169ba4e6e900d"
+    },
+    {
+      "path": "svg/fo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57292f390e2baf5dd5d7cce47cfd96ddb1aeb91f",
+      "size": 303,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/57292f390e2baf5dd5d7cce47cfd96ddb1aeb91f"
+    },
+    {
+      "path": "svg/fr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/ga.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e3198d2a89be04c3283431004c9bccd487bed3",
+      "size": 214,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/45e3198d2a89be04c3283431004c9bccd487bed3"
+    },
+    {
+      "path": "svg/gb-eng.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e270233fc9b3bf16518759056997da65773a1a",
+      "size": 208,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/52e270233fc9b3bf16518759056997da65773a1a"
+    },
+    {
+      "path": "svg/gb-nir.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8fb425043f2ab9d13d306d19a9e9bd129032ba",
+      "size": 527,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1b8fb425043f2ab9d13d306d19a9e9bd129032ba"
+    },
+    {
+      "path": "svg/gb-sct.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a016a085eafeb1270320bcfa7b25724f9a80d78d",
+      "size": 265,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a016a085eafeb1270320bcfa7b25724f9a80d78d"
+    },
+    {
+      "path": "svg/gb-wls.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75bade2af4b48a5ec0d4b11039c2fda634c58250",
+      "size": 16797,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/75bade2af4b48a5ec0d4b11039c2fda634c58250"
+    },
+    {
+      "path": "svg/gb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8fb425043f2ab9d13d306d19a9e9bd129032ba",
+      "size": 527,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1b8fb425043f2ab9d13d306d19a9e9bd129032ba"
+    },
+    {
+      "path": "svg/gd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ad7304f8ae87b2c41ccbc99ec49f6198d356c0",
+      "size": 960,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a8ad7304f8ae87b2c41ccbc99ec49f6198d356c0"
+    },
+    {
+      "path": "svg/ge.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3c23ba03ce2942b9570c10e6e642dd9f98f983",
+      "size": 741,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ed3c23ba03ce2942b9570c10e6e642dd9f98f983"
+    },
+    {
+      "path": "svg/gf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/gg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b470de5fcfcab8459956964e2fac3aaa6fb6fd15",
+      "size": 479,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b470de5fcfcab8459956964e2fac3aaa6fb6fd15"
+    },
+    {
+      "path": "svg/gh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601733712f8beb0c5dfea3d99ee81162405d9345",
+      "size": 296,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/601733712f8beb0c5dfea3d99ee81162405d9345"
+    },
+    {
+      "path": "svg/gi.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a45fbd123502583181419fb5167395a4b1a4064",
+      "size": 5866,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5a45fbd123502583181419fb5167395a4b1a4064"
+    },
+    {
+      "path": "svg/gl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ccf9412a86958b267b04af3bfd9eeb4be3ffa9",
+      "size": 183,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/00ccf9412a86958b267b04af3bfd9eeb4be3ffa9"
+    },
+    {
+      "path": "svg/gm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e1719c4ae38cace4c5afec704cbf04dc002e2a4",
+      "size": 263,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5e1719c4ae38cace4c5afec704cbf04dc002e2a4"
+    },
+    {
+      "path": "svg/gn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c2621ae2a737bac381f8b4b75a06068f2559f1c",
+      "size": 210,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4c2621ae2a737bac381f8b4b75a06068f2559f1c"
+    },
+    {
+      "path": "svg/gp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/gq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bd36fe2e72dcbdd1a6aacefee4025ab3403da6",
+      "size": 8135,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e2bd36fe2e72dcbdd1a6aacefee4025ab3403da6"
+    },
+    {
+      "path": "svg/gr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "104ef7cecfa2e0b1c04b7db86e8e3c116155247a",
+      "size": 206,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/104ef7cecfa2e0b1c04b7db86e8e3c116155247a"
+    },
+    {
+      "path": "svg/gs.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9089b51d03a4172ac6cbf7aedb6d56abe9db3c5a",
+      "size": 42774,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9089b51d03a4172ac6cbf7aedb6d56abe9db3c5a"
+    },
+    {
+      "path": "svg/gt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf475c971398a0e4f67a3719138460146e94ac63",
+      "size": 47783,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/cf475c971398a0e4f67a3719138460146e94ac63"
+    },
+    {
+      "path": "svg/gu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31bda5911bd1534bd7f380769aceb7690f84fab2",
+      "size": 15492,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/31bda5911bd1534bd7f380769aceb7690f84fab2"
+    },
+    {
+      "path": "svg/gw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d35f3618bc5ed59fdf80081fbf0f1a699a084e",
+      "size": 602,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/09d35f3618bc5ed59fdf80081fbf0f1a699a084e"
+    },
+    {
+      "path": "svg/gy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ce1ad052cc99ad8fd36c30be299c7b0a9e24a7",
+      "size": 339,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/16ce1ad052cc99ad8fd36c30be299c7b0a9e24a7"
+    },
+    {
+      "path": "svg/hk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c95457ca0a3e21f09fdb56395b9d070234fb15f7",
+      "size": 927,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c95457ca0a3e21f09fdb56395b9d070234fb15f7"
+    },
+    {
+      "path": "svg/hm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab7eb4d0b640c8e003d86fd6e121af76bf59414",
+      "size": 1309,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/bab7eb4d0b640c8e003d86fd6e121af76bf59414"
+    },
+    {
+      "path": "svg/hn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015a7442e3866537167f005b7bb339bdbbcca82c",
+      "size": 474,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/015a7442e3866537167f005b7bb339bdbbcca82c"
+    },
+    {
+      "path": "svg/hr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc56428085f9a78759b780b12463f0855e911dd5",
+      "size": 68044,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/dc56428085f9a78759b780b12463f0855e911dd5"
+    },
+    {
+      "path": "svg/ht.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb20cf5e94855e897abdd1eb7479104762cd0c0",
+      "size": 94016,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8fb20cf5e94855e897abdd1eb7479104762cd0c0"
+    },
+    {
+      "path": "svg/hu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff4c819880a2e7a512cf959856f5efcadbe24e3",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3ff4c819880a2e7a512cf959856f5efcadbe24e3"
+    },
+    {
+      "path": "svg/id.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dadcc9be41adba9792c667146f3a247d4e4dfe6f",
+      "size": 133,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/dadcc9be41adba9792c667146f3a247d4e4dfe6f"
+    },
+    {
+      "path": "svg/ie.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c90cc94ac3170f8dfbb304c176c01067a21b353",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8c90cc94ac3170f8dfbb304c176c01067a21b353"
+    },
+    {
+      "path": "svg/il.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24750026600a087323238030450a1386eab6bb03",
+      "size": 306,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/24750026600a087323238030450a1386eab6bb03"
+    },
+    {
+      "path": "svg/im.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757c4018865761f738412545aa9239f218cf3e3e",
+      "size": 5126,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/757c4018865761f738412545aa9239f218cf3e3e"
+    },
+    {
+      "path": "svg/in.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c223595d58f6df917e286dc1f4c814925c77d456",
+      "size": 762,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c223595d58f6df917e286dc1f4c814925c77d456"
+    },
+    {
+      "path": "svg/io.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8130500e2ebfa94bb1be8192045d39b2c9629ac9",
+      "size": 59406,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8130500e2ebfa94bb1be8192045d39b2c9629ac9"
+    },
+    {
+      "path": "svg/iq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f806fcbe1ee9484573bf9038f513aa3974a764e5",
+      "size": 2348,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f806fcbe1ee9484573bf9038f513aa3974a764e5"
+    },
+    {
+      "path": "svg/ir.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59b51b5bea4d4220b52e00ba9d8ee623b818dc6c",
+      "size": 1367,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/59b51b5bea4d4220b52e00ba9d8ee623b818dc6c"
+    },
+    {
+      "path": "svg/is.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2830bde5b4a0ea258a82db15c3bdb464f076eb31",
+      "size": 223,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/2830bde5b4a0ea258a82db15c3bdb464f076eb31"
+    },
+    {
+      "path": "svg/it.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d35b8c657040663ebe9027830430fbfbe13705",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f9d35b8c657040663ebe9027830430fbfbe13705"
+    },
+    {
+      "path": "svg/je.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d324787c24df8d0754b20f5f532c357065d168bd",
+      "size": 6145,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d324787c24df8d0754b20f5f532c357065d168bd"
+    },
+    {
+      "path": "svg/jm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee72440b7ad485fcd23147e236e9ac10f3ad7b44",
+      "size": 248,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ee72440b7ad485fcd23147e236e9ac10f3ad7b44"
+    },
+    {
+      "path": "svg/jo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbcf46807f3bb192de66870f640a9e2f633818b5",
+      "size": 584,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/fbcf46807f3bb192de66870f640a9e2f633818b5"
+    },
+    {
+      "path": "svg/jp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6299e73272ef0c8fe432d603dc1ed3482ceeaf48",
+      "size": 166,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/6299e73272ef0c8fe432d603dc1ed3482ceeaf48"
+    },
+    {
+      "path": "svg/ke.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f2468b4e52ee86599db12fcfeadbed91002d0ab",
+      "size": 1284,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8f2468b4e52ee86599db12fcfeadbed91002d0ab"
+    },
+    {
+      "path": "svg/kg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8487dc9e0c9a37f441be1478809bf09e56d23295",
+      "size": 13025,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8487dc9e0c9a37f441be1478809bf09e56d23295"
+    },
+    {
+      "path": "svg/kh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d46f6223c3b21eb998f205af3ec1e328a4f3f54",
+      "size": 13139,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3d46f6223c3b21eb998f205af3ec1e328a4f3f54"
+    },
+    {
+      "path": "svg/ki.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8ea66355bc1c1dd4920e69aa8a11c4c779dd46",
+      "size": 3894,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/aa8ea66355bc1c1dd4920e69aa8a11c4c779dd46"
+    },
+    {
+      "path": "svg/km.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd7a975f8ccad365d92b92425a9544ff2f608950",
+      "size": 690,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/cd7a975f8ccad365d92b92425a9544ff2f608950"
+    },
+    {
+      "path": "svg/kn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd78c60dea415892a4147ab06a3d435f0f6ffe9",
+      "size": 838,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/6fd78c60dea415892a4147ab06a3d435f0f6ffe9"
+    },
+    {
+      "path": "svg/kp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7004824ef3b9c89ccc4539a3bd0f14eabada8d4",
+      "size": 791,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d7004824ef3b9c89ccc4539a3bd0f14eabada8d4"
+    },
+    {
+      "path": "svg/kr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b3074c1b645c14cfbc5ca52a5dfab6e372a535",
+      "size": 551,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a2b3074c1b645c14cfbc5ca52a5dfab6e372a535"
+    },
+    {
+      "path": "svg/kw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44065178ea7516742b4e725b87bd1750ec5e153e",
+      "size": 247,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/44065178ea7516742b4e725b87bd1750ec5e153e"
+    },
+    {
+      "path": "svg/ky.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "395664d038124b95c1a8b074b2fbeb40f5390b40",
+      "size": 34820,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/395664d038124b95c1a8b074b2fbeb40f5390b40"
+    },
+    {
+      "path": "svg/kz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "115aba3260284362a08a6c11d017b547be56facd",
+      "size": 10959,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/115aba3260284362a08a6c11d017b547be56facd"
+    },
+    {
+      "path": "svg/la.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8805ee0976bc6058da9d585a98635f5107f8828",
+      "size": 182,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b8805ee0976bc6058da9d585a98635f5107f8828"
+    },
+    {
+      "path": "svg/lb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7e03d9b1daac4517dd37de100c47b5bfb612d3",
+      "size": 10382,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/af7e03d9b1daac4517dd37de100c47b5bfb612d3"
+    },
+    {
+      "path": "svg/lc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1249b767cc9a052749f10d78d450e1951c624184",
+      "size": 292,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1249b767cc9a052749f10d78d450e1951c624184"
+    },
+    {
+      "path": "svg/li.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7904fead6bf7cc74bcfe7ea1a42ae642ddd3e23",
+      "size": 23487,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/e7904fead6bf7cc74bcfe7ea1a42ae642ddd3e23"
+    },
+    {
+      "path": "svg/lk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb5e633671dadb0fe9c30986466da55346cb82d7",
+      "size": 19206,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/cb5e633671dadb0fe9c30986466da55346cb82d7"
+    },
+    {
+      "path": "svg/lr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fbee8d9ea672f512f93f148ec72f654710e4d83",
+      "size": 691,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5fbee8d9ea672f512f93f148ec72f654710e4d83"
+    },
+    {
+      "path": "svg/ls.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb99e055c2025cfe6e28fdeed2dea77d9431029",
+      "size": 2008,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4cb99e055c2025cfe6e28fdeed2dea77d9431029"
+    },
+    {
+      "path": "svg/lt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "690ae4688994c53dbbcf2ba854ec3312ec592fdb",
+      "size": 178,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/690ae4688994c53dbbcf2ba854ec3312ec592fdb"
+    },
+    {
+      "path": "svg/lu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "712a3aeb8dcca8accb4da88df3b3480c30d37728",
+      "size": 179,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/712a3aeb8dcca8accb4da88df3b3480c30d37728"
+    },
+    {
+      "path": "svg/lv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655ac4f422ace2567789a73d55d1f59b244d6cf8",
+      "size": 138,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/655ac4f422ace2567789a73d55d1f59b244d6cf8"
+    },
+    {
+      "path": "svg/ly.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75db37c20f66dbf9cd057d7279205b4bc5f44118",
+      "size": 430,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/75db37c20f66dbf9cd057d7279205b4bc5f44118"
+    },
+    {
+      "path": "svg/ma.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9faffa10970245f43b6b4d65381d09a04aa5cba6",
+      "size": 213,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9faffa10970245f43b6b4d65381d09a04aa5cba6"
+    },
+    {
+      "path": "svg/mc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231ec9ba3c7be4c3d5fc8ba842aed53ece7f338c",
+      "size": 137,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/231ec9ba3c7be4c3d5fc8ba842aed53ece7f338c"
+    },
+    {
+      "path": "svg/md.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d781d264b6e475770a7fc0d84789a50c1f3cd3",
+      "size": 27030,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f4d781d264b6e475770a7fc0d84789a50c1f3cd3"
+    },
+    {
+      "path": "svg/me.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a7d91469ca3eaa5ed9d7bf14a5a36141ad8e81",
+      "size": 59599,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/51a7d91469ca3eaa5ed9d7bf14a5a36141ad8e81"
+    },
+    {
+      "path": "svg/mf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/mg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7dcf41ccf26d57d00da06048f42915b095f4f4",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/6d7dcf41ccf26d57d00da06048f42915b095f4f4"
+    },
+    {
+      "path": "svg/mh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae94efb68dcbbdfd2eb396d67f62683fada4c182",
+      "size": 740,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ae94efb68dcbbdfd2eb396d67f62683fada4c182"
+    },
+    {
+      "path": "svg/mk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b3cceb899b01eb196a98b7a9ce8097a7504bfb",
+      "size": 340,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/06b3cceb899b01eb196a98b7a9ce8097a7504bfb"
+    },
+    {
+      "path": "svg/ml.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f3dd25a46be658d5dbb3ece5db613323270310",
+      "size": 214,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/45f3dd25a46be658d5dbb3ece5db613323270310"
+    },
+    {
+      "path": "svg/mm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abfdec798c033cb46f62f495ee64b84a5744cec2",
+      "size": 590,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/abfdec798c033cb46f62f495ee64b84a5744cec2"
+    },
+    {
+      "path": "svg/mn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af7efec8d1af94a91c59f54590d4bfa0b79a594",
+      "size": 2116,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/2af7efec8d1af94a91c59f54590d4bfa0b79a594"
+    },
+    {
+      "path": "svg/mo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d17d054f82210e5b3d1b31e5522f0819e4b737c",
+      "size": 2286,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3d17d054f82210e5b3d1b31e5522f0819e4b737c"
+    },
+    {
+      "path": "svg/mp.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5055c8345242cc3cb14fd760af0c90a1c964bdb",
+      "size": 387795,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f5055c8345242cc3cb14fd760af0c90a1c964bdb"
+    },
+    {
+      "path": "svg/mq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/mr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ccfe8509e0350bd1aa4158b84e0454eb9015e8",
+      "size": 304,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c9ccfe8509e0350bd1aa4158b84e0454eb9015e8"
+    },
+    {
+      "path": "svg/ms.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e497f1b4727e395c246c4b91b637d128dbfa90",
+      "size": 8914,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/71e497f1b4727e395c246c4b91b637d128dbfa90"
+    },
+    {
+      "path": "svg/mt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fcfd86ad6f8b338a26990a41c499264b762176",
+      "size": 14916,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b0fcfd86ad6f8b338a26990a41c499264b762176"
+    },
+    {
+      "path": "svg/mu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f92f2941259b527e996d3f6ec08582df599109b2",
+      "size": 216,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f92f2941259b527e996d3f6ec08582df599109b2"
+    },
+    {
+      "path": "svg/mv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5e5bb8d6056f14ceb9b1055c4cfa431d8f371d",
+      "size": 245,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5e5e5bb8d6056f14ceb9b1055c4cfa431d8f371d"
+    },
+    {
+      "path": "svg/mw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a13318eb56b7cae797d607acd2495c6c81b647f",
+      "size": 816,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4a13318eb56b7cae797d607acd2495c6c81b647f"
+    },
+    {
+      "path": "svg/mx.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018c46216c938dda5492d728e513313c6bf66b49",
+      "size": 159738,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/018c46216c938dda5492d728e513313c6bf66b49"
+    },
+    {
+      "path": "svg/my.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc26dbb0cfa9033a14d4581b1569f72fb3f216f",
+      "size": 578,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/8cc26dbb0cfa9033a14d4581b1569f72fb3f216f"
+    },
+    {
+      "path": "svg/mz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2f077efc79d2297f35f188ca4b2bd6907ca08e",
+      "size": 4759,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ee2f077efc79d2297f35f188ca4b2bd6907ca08e"
+    },
+    {
+      "path": "svg/na.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328e490cb60f338663060fa671b5683f4214a8d3",
+      "size": 653,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/328e490cb60f338663060fa671b5683f4214a8d3"
+    },
+    {
+      "path": "svg/nc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/ne.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe9445c9508a0f822b25a29e1d0fdc668c502cd",
+      "size": 261,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/afe9445c9508a0f822b25a29e1d0fdc668c502cd"
+    },
+    {
+      "path": "svg/nf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5187f9186d82610dff25249e5b7e735341bb0371",
+      "size": 23584,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5187f9186d82610dff25249e5b7e735341bb0371"
+    },
+    {
+      "path": "svg/ng.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b44f380b622f729c463727ad0d748d9e856aa0",
+      "size": 157,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/87b44f380b622f729c463727ad0d748d9e856aa0"
+    },
+    {
+      "path": "svg/ni.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc4a59bb5060eda098969c438336b16052afc46",
+      "size": 40301,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/5cc4a59bb5060eda098969c438336b16052afc46"
+    },
+    {
+      "path": "svg/nl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86c0c376a22ff4c5c404a8b5ca8998d7f2870b3e",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/86c0c376a22ff4c5c404a8b5ca8998d7f2870b3e"
+    },
+    {
+      "path": "svg/no.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69120a68be041641eb37d7cf5bc4d88f5eb86bd3",
+      "size": 243,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/69120a68be041641eb37d7cf5bc4d88f5eb86bd3"
+    },
+    {
+      "path": "svg/np.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839dd2a52358b3715eba068f3ddee8b70a33cab2",
+      "size": 1545,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/839dd2a52358b3715eba068f3ddee8b70a33cab2"
+    },
+    {
+      "path": "svg/nr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481f8b627397c3a4ff06f409981cf02c897f3e3a",
+      "size": 481,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/481f8b627397c3a4ff06f409981cf02c897f3e3a"
+    },
+    {
+      "path": "svg/nu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e2aeef0f08460fa6cd9816d209cdf635e9b7cf",
+      "size": 976,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a2e2aeef0f08460fa6cd9816d209cdf635e9b7cf"
+    },
+    {
+      "path": "svg/nz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db87a7f5108ad548f33caa9836d55056b38ebe86",
+      "size": 1743,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/db87a7f5108ad548f33caa9836d55056b38ebe86"
+    },
+    {
+      "path": "svg/om.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc90216256be5e79342e0e243c3e00dcd3a9dde",
+      "size": 16453,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9fc90216256be5e79342e0e243c3e00dcd3a9dde"
+    },
+    {
+      "path": "svg/pa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6ddb3fe1130d60a59df80b443574826bc888fc9",
+      "size": 538,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d6ddb3fe1130d60a59df80b443574826bc888fc9"
+    },
+    {
+      "path": "svg/pe.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c47439dd0f88e8d41666f7601472218b7cff1c",
+      "size": 116827,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/53c47439dd0f88e8d41666f7601472218b7cff1c"
+    },
+    {
+      "path": "svg/pf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f87f90f9b025039a60efb0867cf900734cec50b",
+      "size": 5727,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9f87f90f9b025039a60efb0867cf900734cec50b"
+    },
+    {
+      "path": "svg/pg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f8a9dce95e4dbcef51c6a5e57830dcef8c7e62",
+      "size": 4605,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/01f8a9dce95e4dbcef51c6a5e57830dcef8c7e62"
+    },
+    {
+      "path": "svg/ph.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7970fa18bca56c01d2ef6565bece4b9badac7bdf",
+      "size": 951,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7970fa18bca56c01d2ef6565bece4b9badac7bdf"
+    },
+    {
+      "path": "svg/pk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daab1421ed27756e89a7ff43a6bb5d8c4f7375f7",
+      "size": 331,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/daab1421ed27756e89a7ff43a6bb5d8c4f7375f7"
+    },
+    {
+      "path": "svg/pl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb989baadb2bb4d91f071f771081d5d73e46ae4",
+      "size": 142,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/dfb989baadb2bb4d91f071f771081d5d73e46ae4"
+    },
+    {
+      "path": "svg/pm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/pn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4d7898d925f2f43c9a50b8a3d5f54ad6a7ccdc",
+      "size": 14659,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/2d4d7898d925f2f43c9a50b8a3d5f54ad6a7ccdc"
+    },
+    {
+      "path": "svg/pr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "775619c2804501953722be8e337941a66d17cdae",
+      "size": 262,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/775619c2804501953722be8e337941a66d17cdae"
+    },
+    {
+      "path": "svg/ps.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dfe9c2850be3cd360d757facb3b7deda0a5ff2",
+      "size": 202,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c0dfe9c2850be3cd360d757facb3b7deda0a5ff2"
+    },
+    {
+      "path": "svg/pt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88b08160d2a286bca2950bcc2b88ce74b60f2da3",
+      "size": 11565,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/88b08160d2a286bca2950bcc2b88ce74b60f2da3"
+    },
+    {
+      "path": "svg/pw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "802482d37cfdb50b83cc48e6d79f5be04c985d6a",
+      "size": 144,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/802482d37cfdb50b83cc48e6d79f5be04c985d6a"
+    },
+    {
+      "path": "svg/py.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e41611b891dcc7c1aaedced0ad8db75feec6fd3",
+      "size": 22483,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7e41611b891dcc7c1aaedced0ad8db75feec6fd3"
+    },
+    {
+      "path": "svg/qa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b750f072f16ced3fcf821d5167e03f8b04e8a94f",
+      "size": 337,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b750f072f16ced3fcf821d5167e03f8b04e8a94f"
+    },
+    {
+      "path": "svg/re.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/ro.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccd3c0d0a2a0fd6edf338e15e8633ae98efcdb51",
+      "size": 178,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ccd3c0d0a2a0fd6edf338e15e8633ae98efcdb51"
+    },
+    {
+      "path": "svg/rs.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1d6f40f3ebb0930ce5ba8a9368bd2a87fa9b25f",
+      "size": 74421,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a1d6f40f3ebb0930ce5ba8a9368bd2a87fa9b25f"
+    },
+    {
+      "path": "svg/ru.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e65fbdaf78e0876623000a3cae12fbdf83a04ea",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/6e65fbdaf78e0876623000a3cae12fbdf83a04ea"
+    },
+    {
+      "path": "svg/rw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d2ec0c36cc5639d7f5a7e59c6211f29f72e5047",
+      "size": 767,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7d2ec0c36cc5639d7f5a7e59c6211f29f72e5047"
+    },
+    {
+      "path": "svg/sa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a6ce8b4bb353c1575033a7b08b40307237d83c",
+      "size": 20671,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d9a6ce8b4bb353c1575033a7b08b40307237d83c"
+    },
+    {
+      "path": "svg/sb.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b104e17e6778a8a91047c17d6b2bd2bae6a0387e",
+      "size": 865,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b104e17e6778a8a91047c17d6b2bd2bae6a0387e"
+    },
+    {
+      "path": "svg/sc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc2fc1f8da27298e6a6635c2d44fa78c4ce32ff",
+      "size": 278,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/bbc2fc1f8da27298e6a6635c2d44fa78c4ce32ff"
+    },
+    {
+      "path": "svg/sd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7193e760b3c55d8d3df3e2b61bb71f3a8496761",
+      "size": 231,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a7193e760b3c55d8d3df3e2b61bb71f3a8496761"
+    },
+    {
+      "path": "svg/se.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9223d14cbc72ce1795a0e46510f6c1bf37acfd35",
+      "size": 216,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9223d14cbc72ce1795a0e46510f6c1bf37acfd35"
+    },
+    {
+      "path": "svg/sg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5c6e04c5cd706c7af828ee1bd795513809998df",
+      "size": 997,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d5c6e04c5cd706c7af828ee1bd795513809998df"
+    },
+    {
+      "path": "svg/sh.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8fb425043f2ab9d13d306d19a9e9bd129032ba",
+      "size": 527,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/1b8fb425043f2ab9d13d306d19a9e9bd129032ba"
+    },
+    {
+      "path": "svg/si.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "517b1b1888ad8a638da2955629444f33908f2be7",
+      "size": 2369,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/517b1b1888ad8a638da2955629444f33908f2be7"
+    },
+    {
+      "path": "svg/sj.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69120a68be041641eb37d7cf5bc4d88f5eb86bd3",
+      "size": 243,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/69120a68be041641eb37d7cf5bc4d88f5eb86bd3"
+    },
+    {
+      "path": "svg/sk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70142ba819bbe68fa9e46226449385842fa43d35",
+      "size": 1670,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/70142ba819bbe68fa9e46226449385842fa43d35"
+    },
+    {
+      "path": "svg/sl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eecb6b5df805ed9182607dd3dea3837ac1fac8fb",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/eecb6b5df805ed9182607dd3dea3837ac1fac8fb"
+    },
+    {
+      "path": "svg/sm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf041dd2f7c228bd888503dc883e14cfa25a40e",
+      "size": 78556,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/2cf041dd2f7c228bd888503dc883e14cfa25a40e"
+    },
+    {
+      "path": "svg/sn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e343123400e0f37835a8370dd931805725bfb96",
+      "size": 602,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/7e343123400e0f37835a8370dd931805725bfb96"
+    },
+    {
+      "path": "svg/so.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3053eee70a9a232b0442659b3ba0facd27c6b9a4",
+      "size": 512,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3053eee70a9a232b0442659b3ba0facd27c6b9a4"
+    },
+    {
+      "path": "svg/sr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721805ed38f48a87fbddbe1a8f5d4ea1d19de4a7",
+      "size": 290,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/721805ed38f48a87fbddbe1a8f5d4ea1d19de4a7"
+    },
+    {
+      "path": "svg/ss.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71128d76a8e38fc0ec19f113e5498a9087aea6d0",
+      "size": 323,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/71128d76a8e38fc0ec19f113e5498a9087aea6d0"
+    },
+    {
+      "path": "svg/st.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d560b22d59d83b0241e7bf43a6e09877e1adbe",
+      "size": 638,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d6d560b22d59d83b0241e7bf43a6e09877e1adbe"
+    },
+    {
+      "path": "svg/sv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cb8695c032fb55692ea3402e1371d89dba6ce2",
+      "size": 241664,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/36cb8695c032fb55692ea3402e1371d89dba6ce2"
+    },
+    {
+      "path": "svg/sx.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51149dd510d4d650fa5ebe891c945d21cea7833",
+      "size": 19611,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a51149dd510d4d650fa5ebe891c945d21cea7833"
+    },
+    {
+      "path": "svg/sy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73adde8d98ddcc35bb06fdcef8c85d83ecc04967",
+      "size": 367,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/73adde8d98ddcc35bb06fdcef8c85d83ecc04967"
+    },
+    {
+      "path": "svg/sz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "901a97f1c6549df0d16ecad7fa918d4dd716fa24",
+      "size": 6469,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/901a97f1c6549df0d16ecad7fa918d4dd716fa24"
+    },
+    {
+      "path": "svg/tc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e4223ce6d2592f5814553ad20727fa0b64aadc",
+      "size": 6379,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/40e4223ce6d2592f5814553ad20727fa0b64aadc"
+    },
+    {
+      "path": "svg/td.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f4fee4c96f91f7cc45a97b5447cc6b0a616db2",
+      "size": 178,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/29f4fee4c96f91f7cc45a97b5447cc6b0a616db2"
+    },
+    {
+      "path": "svg/tf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3750ae6799cc210cbf1b14d326de4919389eb7",
+      "size": 775,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/eb3750ae6799cc210cbf1b14d326de4919389eb7"
+    },
+    {
+      "path": "svg/tg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "629813ab2790aa48d7c31a66ef8d6ce8b17787cc",
+      "size": 607,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/629813ab2790aa48d7c31a66ef8d6ce8b17787cc"
+    },
+    {
+      "path": "svg/th.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7f78bc7ce98721113a3d1ad51829fd5ffeccd6",
+      "size": 178,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/eb7f78bc7ce98721113a3d1ad51829fd5ffeccd6"
+    },
+    {
+      "path": "svg/tj.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa1c14736f2a1073e740b3e18afcb106734eadd",
+      "size": 1489,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/eaa1c14736f2a1073e740b3e18afcb106734eadd"
+    },
+    {
+      "path": "svg/tk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f92dc1893d4f566fb8d02f042429b62dacb0091",
+      "size": 1195,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4f92dc1893d4f566fb8d02f042429b62dacb0091"
+    },
+    {
+      "path": "svg/tl.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33dcecb741441376c474e0ec2c34e81305b3b000",
+      "size": 298,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/33dcecb741441376c474e0ec2c34e81305b3b000"
+    },
+    {
+      "path": "svg/tm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e16348d61a548459735ff08a70bdea3df3128b7",
+      "size": 42244,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/4e16348d61a548459735ff08a70bdea3df3128b7"
+    },
+    {
+      "path": "svg/tn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a86d3d4eeb9d76669d604e596404d111090ee24e",
+      "size": 362,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a86d3d4eeb9d76669d604e596404d111090ee24e"
+    },
+    {
+      "path": "svg/to.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcacbaf8794f13b785ff99becd55c2ad4bf222f0",
+      "size": 202,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/dcacbaf8794f13b785ff99becd55c2ad4bf222f0"
+    },
+    {
+      "path": "svg/tr.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f676181e9c4c977e130cb89912d3d58f6bf4ef1",
+      "size": 287,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/3f676181e9c4c977e130cb89912d3d58f6bf4ef1"
+    },
+    {
+      "path": "svg/tt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b11e506b9a3d8c95e692c81f0b75d759f00030cf",
+      "size": 247,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/b11e506b9a3d8c95e692c81f0b75d759f00030cf"
+    },
+    {
+      "path": "svg/tv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88caa5c666c64f667b7a736cdb9bcc7efde9832",
+      "size": 1213,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f88caa5c666c64f667b7a736cdb9bcc7efde9832"
+    },
+    {
+      "path": "svg/tw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a2d54e5e2fddee4a94296821ff2b9c344ba43e",
+      "size": 482,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/36a2d54e5e2fddee4a94296821ff2b9c344ba43e"
+    },
+    {
+      "path": "svg/tz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017001f8a2c0322e3576a825d6d8aed8f7806c41",
+      "size": 358,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/017001f8a2c0322e3576a825d6d8aed8f7806c41"
+    },
+    {
+      "path": "svg/ua.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c893d0220dc3499fe2c082b12a6b03b9549ed700",
+      "size": 137,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c893d0220dc3499fe2c082b12a6b03b9549ed700"
+    },
+    {
+      "path": "svg/ug.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f266517379f2fa9855395ebc1c76479e1d50ded1",
+      "size": 3667,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/f266517379f2fa9855395ebc1c76479e1d50ded1"
+    },
+    {
+      "path": "svg/um.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9201215ec3534e5cbd96cd3519cec599162f067a",
+      "size": 741,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9201215ec3534e5cbd96cd3519cec599162f067a"
+    },
+    {
+      "path": "svg/us.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9201215ec3534e5cbd96cd3519cec599162f067a",
+      "size": 741,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9201215ec3534e5cbd96cd3519cec599162f067a"
+    },
+    {
+      "path": "svg/uy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01a1722c61dc48936a419b3e51aaa985f5a2235",
+      "size": 8697,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/a01a1722c61dc48936a419b3e51aaa985f5a2235"
+    },
+    {
+      "path": "svg/uz.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f3bb3b8f1b8d42df2a0b4c3409d47fc1478f3b",
+      "size": 926,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c2f3bb3b8f1b8d42df2a0b4c3409d47fc1478f3b"
+    },
+    {
+      "path": "svg/va.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479895dc8eb8c55e1e07a590e70e7b91dd4de81c",
+      "size": 38008,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/479895dc8eb8c55e1e07a590e70e7b91dd4de81c"
+    },
+    {
+      "path": "svg/vc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd16e52c9b825fe804665166fb4b3f6de0c43de",
+      "size": 370,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ebd16e52c9b825fe804665166fb4b3f6de0c43de"
+    },
+    {
+      "path": "svg/ve.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "650426774651bc66154996be2a6bb13ef6dd1074",
+      "size": 812,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/650426774651bc66154996be2a6bb13ef6dd1074"
+    },
+    {
+      "path": "svg/vg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed55d1a64c4ddc2474f7d43f4cc9991813eeb01d",
+      "size": 14686,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/ed55d1a64c4ddc2474f7d43f4cc9991813eeb01d"
+    },
+    {
+      "path": "svg/vi.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7002dd6ec74a4d3f51cd34465dd864ee77f60e",
+      "size": 20007,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/be7002dd6ec74a4d3f51cd34465dd864ee77f60e"
+    },
+    {
+      "path": "svg/vn.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0dd98a8829b45f8c17476e63a8762014ff222ab",
+      "size": 458,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d0dd98a8829b45f8c17476e63a8762014ff222ab"
+    },
+    {
+      "path": "svg/vu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d754367024beb1e8df9fea47009076d6b34e77ef",
+      "size": 2576,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/d754367024beb1e8df9fea47009076d6b34e77ef"
+    },
+    {
+      "path": "svg/wf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "682f9f055ea1f1eb89fa62a695245cefbae676dd",
+      "size": 319,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/682f9f055ea1f1eb89fa62a695245cefbae676dd"
+    },
+    {
+      "path": "svg/ws.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50716208b46c686be3192438995295083fe8930c",
+      "size": 602,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/50716208b46c686be3192438995295083fe8930c"
+    },
+    {
+      "path": "svg/xk.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244c85fd31b3d5ca95a9596ee71df6f5a2299179",
+      "size": 4419,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/244c85fd31b3d5ca95a9596ee71df6f5a2299179"
+    },
+    {
+      "path": "svg/ye.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c3ab3c496d453178d88b20e85ef1d2686c5ae2",
+      "size": 160,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/37c3ab3c496d453178d88b20e85ef1d2686c5ae2"
+    },
+    {
+      "path": "svg/yt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76dd719f462fb4456046040e9638b97f58ea936",
+      "size": 175,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c76dd719f462fb4456046040e9638b97f58ea936"
+    },
+    {
+      "path": "svg/za.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd94ac0d268c90dbab063b1201773a9a92c37ab",
+      "size": 530,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/9fd94ac0d268c90dbab063b1201773a9a92c37ab"
+    },
+    {
+      "path": "svg/zm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde9932ba1acfe3cb00abb36e730b0a91eefc88e",
+      "size": 7624,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/bde9932ba1acfe3cb00abb36e730b0a91eefc88e"
+    },
+    {
+      "path": "svg/zw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38e54878e868198ad6406d2c36cf798d2ec4903",
+      "size": 13233,
+      "url": "https://api.github.com/repos/hampusborgos/country-flags/git/blobs/c38e54878e868198ad6406d2c36cf798d2ec4903"
+    }
+  ],
+  "truncated": false
+}

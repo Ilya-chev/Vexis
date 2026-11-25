@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="journal_connected_prefix">"اتصال VPN نشط: "</string>
+    <string name="journal_lost_reconnect">خادم VPN غير متاح؛ جارٍ إعادة الاتصال</string>
+    <string name="journal_lost_disconnect">خادم VPN غير متاح؛ جارٍ قطع الاتصال</string>
+    <string name="journal_updated_prefix">"تم تحديث الاشتراك: "</string>
+    <string name="journal_servers_count">" · الخوادم: "</string>
+    <string name="service_waiting_internet">في انتظار الإنترنت</string>
+    <string name="service_vpn_busy">شبكة VPN مشغولة</string>
+    <string name="service_check_server">"جارٍ الفحص · "</string>
+    <string name="service_milliseconds">" مللي ثانية"</string>
+    <string name="country_unknown">بلد غير معروف</string>
+    <string name="tab_servers">الخوادم</string>
+    <string name="tab_selected">المختارة</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="connect">اتصال</string>
+    <string name="disconnect">قطع الاتصال</string>
+    <string name="connected">متصل</string>
+    <string name="manual">يدوي</string>
+    <string name="automatic">تلقائي</string>
+    <string name="group_countries">حسب البلد</string>
+    <string name="group_subscriptions">حسب الاشتراك</string>
+    <string name="manual_reconnect">إعادة الاتصال في الوضع اليدوي</string>
+    <string name="manual_reconnect_help">عند انقطاع الاتصال، يتحقق من الخادم المحدد يدوياً ويعيد الاتصال به. من الجولة الثانية يفحص تحديثات المحركات والاشتراك.</string>
+</resources>

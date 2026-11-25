@@ -1,0 +1,11 @@
+desugar_jdk_libs 2.1.5
+
+The Google Maven artifact declares GPL version 2 with the Classpath
+Exception. See GPL-2.0.txt, Classpath-exception.txt, and the additional
+licensing information in the source distribution.
+
+The upstream snapshot prepared for version 2.1.5 is commit
+73170c345e6a762fc6a1f0301bb15218850023ef. It includes source code,
+the license notices and build tools:
+https://github.com/google/desugar_jdk_libs/tree/73170c345e6a762fc6a1f0301bb15218850023ef
+https://github.com/google/desugar_jdk_libs/blob/73170c345e6a762fc6a1f0301bb15218850023ef/ADDITIONAL_LICENSE_INFO

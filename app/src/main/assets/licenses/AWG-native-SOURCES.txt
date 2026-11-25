@@ -1,0 +1,21 @@
+AmneziaWG native library: license source index
+
+The following upstream files correspond to module versions or replacements listed in the embedded Go build metadata of the arm64 libam-go.so shipped by amneziawg-android 2.3.7. All twelve embedded module h1 checksums match the retained Go proxy source archives, and these root license and patent files match those archives. These top-level files do not constitute a complete file-by-file notice audit or corresponding source package.
+
+AWG-amneziawg-go-LICENSE.txt: https://github.com/wgtunnel/amneziawg-go/blob/0569d899c9bf/LICENSE
+AWG-wireproxy-LICENSE.txt: https://github.com/wgtunnel/wireproxy-awg/blob/ff4200f20ff2/LICENSE
+AWG-go-socks5-LICENSE.txt: Go module archive https://proxy.golang.org/github.com/wgtunnel/go-socks5/@v/v0.0.0-20260307052555-86f8d93b9534.zip (archive h1 matches the embedded build metadata)
+AWG-heredoc-LICENSE.txt: https://github.com/MakeNowJust/heredoc/blob/v2.0.1/LICENSE
+AWG-ini-LICENSE.txt: https://github.com/go-ini/ini/blob/v1.67.0/LICENSE
+AWG-btree-LICENSE.txt: https://github.com/google/btree/blob/v1.1.3/LICENSE
+AWG-dns-LICENSE.txt: https://github.com/miekg/dns/blob/v1.1.68/LICENSE
+AWG-gvisor-LICENSE.txt: https://github.com/google/gvisor/blob/1f7806d17489/LICENSE
+AWG-x-crypto-LICENSE.txt and PATENTS: https://github.com/golang/crypto/tree/v0.45.0
+AWG-x-net-LICENSE.txt and PATENTS: https://github.com/golang/net/tree/v0.47.0
+AWG-x-sys-LICENSE.txt and PATENTS: https://github.com/golang/sys/tree/v0.38.0
+AWG-x-time-LICENSE.txt and PATENTS: https://github.com/golang/time/tree/v0.14.0
+AWG-Go-1.24.4-LICENSE.txt and PATENTS: https://github.com/golang/go/tree/go1.24.4
+Android userspace JNI wrapper and build scripts:
+https://github.com/zaneschepke/amneziawg-android/tree/ffb71fb3bcd15ac011ad7cfbe05f76d150fc37f9/tunnel/tools/libwg-go
+Its vpn.go and vpn_jni.c are licensed under Apache-2.0 and credit Jason A. Donenfeld (2017–2022 and 2017–2021, respectively). See Apache-2.0.txt.
+

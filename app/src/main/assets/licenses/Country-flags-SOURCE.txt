@@ -1,0 +1,10 @@
+Country flag artwork in Vexis
+
+The 255 SVGs are the 4:3 artwork from flag-icons version 7.5.0,
+distributed under the MIT License. See Country-flags-MIT.txt.
+Copyright (c) 2013 Panayiotis Lipiridis.
+
+Upstream source commit: 7aa5b2bdddd570ece62c812c0cb588ccdc099e2e
+https://github.com/lipis/flag-icons/tree/7aa5b2bdddd570ece62c812c0cb588ccdc099e2e
+https://registry.npmjs.org/flag-icons/-/flag-icons-7.5.0.tgz
+Package SHA-256: c0b80bf0e08006a60f56621d6bc49f8c7131f4d1fef6737a165a673431f4b518

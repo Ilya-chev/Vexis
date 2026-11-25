@@ -1,0 +1,34 @@
+<resources>
+    <style name="Theme.Vexis" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#6818B8</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="android:alertDialogTheme">@style/Theme.Vexis.Dialog</item>
+    </style>
+    <style name="Theme.Vexis.Dialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorAccent">#6818B8</item>
+        <item name="android:windowBackground">@drawable/vexis_dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.38</item>
+    </style>
+    <style name="Theme.Vexis.Dark" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#BD83F1</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#17121D</item>
+        <item name="android:navigationBarColor">#17121D</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">#17121D</item>
+        <item name="android:alertDialogTheme">@style/Theme.Vexis.Dark.Dialog</item>
+    </style>
+    <style name="Theme.Vexis.Dark.Dialog" parent="android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">#BD83F1</item>
+        <item name="android:windowBackground">@drawable/vexis_dialog_background_dark</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.38</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+Vexis includes AndroidLibXrayLite v26.11.9 under the GNU Lesser General
+Public License, version 3. It includes Xray-core under the Mozilla Public
+License, version 2.0. See the accompanying license texts.
+
+AndroidLibXrayLite release and source:
+https://github.com/2dust/AndroidLibXrayLite/releases/tag/v26.11.9
+https://github.com/2dust/AndroidLibXrayLite/tree/b5a377087e74eaa34e86718710b04c50f4b767f5
+
+Xray-core source revision identified in the bundled engine:
+https://github.com/XTLS/Xray-core/tree/676eaf66f8f0
+
+The library's Go build information identifies Go 1.27.3 across all Android
+architectures. See Xray-Go-1.27.3-LICENSE.txt and the accompanying PATENTS file.
+https://github.com/golang/go/tree/go1.27.3
+
+See Xray-Go-Dependencies.txt for the license and notice files of the Go modules
+identified in the library's build information.

@@ -1,0 +1,25 @@
+Third-party components in Vexis
+
+AndroidLibXrayLite v26.11.9 and Xray-core
+See Xray-NOTICE.txt for the source revisions and license texts.
+
+AmneziaWG Android 2.3.7 (com.zaneschepke:amneziawg-android)
+The published package declares Apache License 2.0.
+https://central.sonatype.com/artifact/com.zaneschepke/amneziawg-android/2.3.7
+
+ZXing Core 3.5.3
+Apache License 2.0. See ZXing-3.5.3-NOTICE.txt.
+https://github.com/zxing/zxing/tree/zxing-3.5.3
+
+AndroidSVG 1.4
+Apache License 2.0.
+https://github.com/BigBadaboom/androidsvg
+
+desugar_jdk_libs 2.1.5
+The published package declares GPL version 2 with the Classpath Exception.
+https://github.com/google/desugar_jdk_libs
+
+Country flags
+flag-icons 7.5.0, MIT License. See Country-flags-SOURCE.txt and
+Country-flags-MIT.txt.
+https://github.com/lipis/flag-icons

@@ -1,0 +1,24 @@
+<resources>
+    <string name="journal_connected_prefix">"VPN 已连接："</string>
+    <string name="journal_lost_reconnect">VPN 服务器不可用，正在重连</string>
+    <string name="journal_lost_disconnect">VPN 服务器不可用，正在断开</string>
+    <string name="journal_updated_prefix">"订阅已更新："</string>
+    <string name="journal_servers_count">" · 服务器数："</string>
+    <string name="service_waiting_internet">等待网络</string>
+    <string name="service_vpn_busy">VPN 正忙</string>
+    <string name="service_check_server">"正在检查 · "</string>
+    <string name="service_milliseconds">" 毫秒"</string>
+    <string name="country_unknown">未知国家</string>
+    <string name="tab_servers">服务器</string>
+    <string name="tab_selected">已选</string>
+    <string name="tab_settings">设置</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="connected">已连接</string>
+    <string name="manual">手动</string>
+    <string name="automatic">自动</string>
+    <string name="group_countries">按国家</string>
+    <string name="group_subscriptions">按订阅</string>
+    <string name="manual_reconnect">手动模式下重新连接</string>
+    <string name="manual_reconnect_help">连接中断时，检查并重新连接手动选择的服务器。从第二轮开始检查内核和订阅更新。</string>
+</resources>

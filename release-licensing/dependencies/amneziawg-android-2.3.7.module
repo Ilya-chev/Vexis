@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.zaneschepke",
+    "module": "amneziawg-android",
+    "version": "2.3.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "amneziawg-android-2.3.7.aar",
+          "url": "amneziawg-android-2.3.7.aar",
+          "size": 13107807,
+          "sha512": "2589d26b3470af5111b3f8d2fa2f64d68634a4c947af442b623b548d7059e129d1746897c79f9dac85137b6800f54d3312f3b209e2df4bea98868786d7a1a722",
+          "sha256": "b08c96190d34244626cad1db79618f1658481974a829a2c42527d7a6989c3429",
+          "sha1": "57db401adbd424aedee18dab202fc507e8e13ee7",
+          "md5": "5bf1f081028649d912df17763afe2c15"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.zaneschepke",
+          "module": "hevtunnel",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.getkeepsafe.relinker",
+          "module": "relinker",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-dnsoverhttps",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amneziawg-android-2.3.7.aar",
+          "url": "amneziawg-android-2.3.7.aar",
+          "size": 13107807,
+          "sha512": "2589d26b3470af5111b3f8d2fa2f64d68634a4c947af442b623b548d7059e129d1746897c79f9dac85137b6800f54d3312f3b209e2df4bea98868786d7a1a722",
+          "sha256": "b08c96190d34244626cad1db79618f1658481974a829a2c42527d7a6989c3429",
+          "sha1": "57db401adbd424aedee18dab202fc507e8e13ee7",
+          "md5": "5bf1f081028649d912df17763afe2c15"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "amneziawg-android-2.3.7-sources.jar",
+          "url": "amneziawg-android-2.3.7-sources.jar",
+          "size": 54912,
+          "sha512": "576d206436f34ba08e9982614370a6bc184d8fe022e0015308ae8b71598753ed5eda870b681036038ccadd71696a85b0669296a7ef7da4038694134410c42b73",
+          "sha256": "ca290b26da4704623927d43f46cabe4bc6c5989c1e9ad6e226c141724b52fdf5",
+          "sha1": "479ca45283816049ddf81bd386e2b1c484946108",
+          "md5": "41c362350049b0c00e1c92bf6de4248c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "amneziawg-android-2.3.7-javadoc.jar",
+          "url": "amneziawg-android-2.3.7-javadoc.jar",
+          "size": 507565,
+          "sha512": "17ab2a3798eba309555f9c7b565ce36560e4fc3346958968f609025b51af8f27a13831f39f1f60463acc4f121e7b7fdac803a52d10588bbad73f20c807525c19",
+          "sha256": "0651bcb09475137baecc63a2558a25210c2a31905111338a334ad9fef4eb2f9e",
+          "sha1": "9e4c2a3887e9ace4b33d9e6d474f44f251674054",
+          "md5": "4a4a978d789f713a1581956aaa0567de"
+        }
+      ]
+    }
+  ]
+}

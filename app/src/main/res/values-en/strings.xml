@@ -1,0 +1,24 @@
+<resources>
+    <string name="journal_connected_prefix">"VPN connected: "</string>
+    <string name="journal_lost_reconnect">VPN server unavailable; reconnecting</string>
+    <string name="journal_lost_disconnect">VPN server unavailable; disconnecting</string>
+    <string name="journal_updated_prefix">"Subscription updated: "</string>
+    <string name="journal_servers_count">" · servers: "</string>
+    <string name="service_waiting_internet">Waiting for internet</string>
+    <string name="service_vpn_busy">VPN is busy</string>
+    <string name="service_check_server">"Checking · "</string>
+    <string name="service_milliseconds">" ms"</string>
+    <string name="country_unknown">Unknown country</string>
+    <string name="tab_servers">Servers</string>
+    <string name="tab_selected">Selected</string>
+    <string name="tab_settings">Settings</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connected">Connected</string>
+    <string name="manual">Manual</string>
+    <string name="automatic">Auto</string>
+    <string name="group_countries">By country</string>
+    <string name="group_subscriptions">By subscription</string>
+    <string name="manual_reconnect">Reconnect in manual mode</string>
+    <string name="manual_reconnect_help">If the connection fails, checks and reconnects the manually selected server. From the second round, checks engine and subscription updates.</string>
+</resources>

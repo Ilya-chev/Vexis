@@ -1,0 +1,24 @@
+<resources>
+    <string name="journal_connected_prefix">"VPN connecté : "</string>
+    <string name="journal_lost_reconnect">Serveur VPN indisponible ; reconnexion</string>
+    <string name="journal_lost_disconnect">Serveur VPN indisponible ; déconnexion</string>
+    <string name="journal_updated_prefix">"Abonnement actualisé : "</string>
+    <string name="journal_servers_count">" · serveurs : "</string>
+    <string name="service_waiting_internet">En attente d’Internet</string>
+    <string name="service_vpn_busy">VPN occupé</string>
+    <string name="service_check_server">"Vérification · "</string>
+    <string name="service_milliseconds">" ms"</string>
+    <string name="country_unknown">Pays inconnu</string>
+    <string name="tab_servers">Serveurs</string>
+    <string name="tab_selected">Sélectionnés</string>
+    <string name="tab_settings">Paramètres</string>
+    <string name="connect">Connecter</string>
+    <string name="disconnect">Déconnecter</string>
+    <string name="connected">Connecté</string>
+    <string name="manual">Manuel</string>
+    <string name="automatic">Auto</string>
+    <string name="group_countries">Par pays</string>
+    <string name="group_subscriptions">Par abonnement</string>
+    <string name="manual_reconnect">Reconnexion en mode manuel</string>
+    <string name="manual_reconnect_help">Si la connexion est perdue, vérifie et reconnecte le serveur choisi. Dès le deuxième cycle, recherche les mises à jour des moteurs et de l’abonnement.</string>
+</resources>

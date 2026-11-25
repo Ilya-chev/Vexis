@@ -1,0 +1,4 @@
+<resources>
+    <item name="vexis_modal_shade" type="id"/>
+    <item name="vexis_modal_shade_hook" type="id"/>
+</resources>
